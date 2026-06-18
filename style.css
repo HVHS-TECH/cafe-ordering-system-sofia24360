@@ -45,3 +45,11 @@ header {
     grid-template-columns: auto auto auto;
 
 }
+
+.menu {
+    grid-template-columns: ;
+    background-color: black;
+}
+.menu img { 
+    width: 30%;
+}
