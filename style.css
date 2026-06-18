@@ -41,5 +41,7 @@ header {
 }
 
 .container {
-    grid-template-columns: 2fr 1fr;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
 }
