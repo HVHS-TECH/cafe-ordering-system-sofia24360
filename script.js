@@ -24,7 +24,7 @@ var itemsArray = [
     }
 ]
 
-let userArray
+
 /**********************************
  Main code
 **********************************/
@@ -41,7 +41,8 @@ let userArray
 ***********************************/
 
 getFormInput(){
-    let 
+    let userArray [choice]
+    let choice = 
     userArray.push()
 
 }
