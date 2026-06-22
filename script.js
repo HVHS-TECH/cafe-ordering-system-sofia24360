@@ -42,7 +42,7 @@ var itemsArray = [
 
 getFormInput(){
     let userArray [choice]
-    let choice = 
-    userArray.push()
+    let choice = ITEM_FIELD.value
+    
 
 }
