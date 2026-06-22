@@ -5,7 +5,25 @@ Name: Ordering System
 
 
 //Variables
-var itemsArray = [
+let userArray
+
+/**********************************
+ Main code
+**********************************/
+
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
+getFormInput()
+
+
+
+
+
+/***********************************
+ Functions
+***********************************/
+
+getFormInput(){
+    var itemsArray = [
     {
         name:"Brownies",
         price:12
@@ -23,27 +41,8 @@ var itemsArray = [
         price:10
     }
     ]
-
-
-/**********************************
- Main code
-**********************************/
-
-
-
-
-
-
-
-
-/***********************************
- Functions
-***********************************/
-
-getFormInput(){
     let choice = ITEM_FIELD.value
-    let userArray = [choice]
-    OUTPUT.innerHTML = QUANTITY_FIELD.value + "x " + itemsArray[choice] + "<br>"
+    OUTPUT.innerHTML += QUANTITY_FIELD.value + "x " + itemsArray[choice] + "<br>"
     
 
 }
