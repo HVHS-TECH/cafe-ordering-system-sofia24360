@@ -21,4 +21,3 @@ console.log("Running ordering system");
  Functions
 ***********************************/
 
-}
