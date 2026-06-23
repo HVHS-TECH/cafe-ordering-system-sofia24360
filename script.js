@@ -44,5 +44,5 @@ function getFormInput(){
     ]
     let choice = ITEM_FIELD.value;
     let qty = QUANTITY_FIELD.value;
-    OUTPUT.innerHTML += qty + "x ";
+    OUTPUT.innerHTML += qty + "x " + itemsArray[choice];
 }
