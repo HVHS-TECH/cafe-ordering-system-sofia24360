@@ -6,7 +6,6 @@ console.log("Running ordering system");
 
 
 //Variables
-let userArray
 let itemsArray = [ 
     {
         name:"Brownies",
@@ -41,10 +40,7 @@ const QUANTITY_FIELD = document.getElementById("quantityField")
 /***********************************
  Functions
 ***********************************/
-let userArray
 function getFormInput(){
-    let choice = ITEM_FIELD.value
-    userArray.push(choice)
-    let qty = QUANTITY_FIELD.value
-    OUTPUT.innerHTML += qty + "x " + userArray + 
-}
+    let choice = ITEM_FIELD.value;
+    let qty = QUANTITY_FIELD.value;
+    OUTPUT.innerHTML += qty + "x " + itemsArray.name + itemsArray
