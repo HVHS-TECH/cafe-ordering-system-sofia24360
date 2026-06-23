@@ -1,35 +1,19 @@
 /***********************************
 Name: Ordering System
 ***********************************/
+console.log("Running ordering system");
 
 
 
 //Variables
 let userArray
-
-/**********************************
- Main code
-**********************************/
-
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
-getFormInput()
-
-
-
-
-
-/***********************************
- Functions
-***********************************/
-
-getFormInput(){
-    var itemsArray = [
+let itemsArray = [ 
     {
         name:"Brownies",
         price:12
     },
     {
-        name:"Egg Tart"
+        name:"Egg Tart",
         price:5
     },
     {
@@ -41,8 +25,26 @@ getFormInput(){
         price:10
     }
     ]
-    let choice = ITEM_FIELD.value
-    OUTPUT.innerHTML += QUANTITY_FIELD.value + "x " + itemsArray[choice] + "<br>"
-    
 
+/**********************************
+ Main code
+**********************************/
+
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
+const ITEM_FIELD = document.getElementById("itemField")
+const QUANTITY_FIELD = document.getElementById("quantityField")
+
+
+
+
+
+/***********************************
+ Functions
+***********************************/
+let userArray
+function getFormInput(){
+    let choice = ITEM_FIELD.value
+    userArray.push(choice)
+    let qty = QUANTITY_FIELD.value
+    OUTPUT.innerHTML += qty + "x " + userArray + 
 }
