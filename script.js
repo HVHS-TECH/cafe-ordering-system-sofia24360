@@ -11,7 +11,7 @@ console.log("Running ordering system");
 /**********************************
  Main code
 **********************************/
-const OUTPUT = document.getElementById("itemField");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 
 
