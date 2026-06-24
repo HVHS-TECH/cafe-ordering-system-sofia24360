@@ -26,6 +26,6 @@ const QUANTIY_FIELD = document.getElementById("quantityField")
 
 function getFormInput(){
     let itemArray = ["Brownies", "Egg tart", "Strawberry Cream Tart", "Palmiers"];
-    let choice = ITEM_FIELD.value;
+    let choice = 
     OUTPUT.innerHTML += "x " + itemArray[choice] + "<br>";
 }
