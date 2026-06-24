@@ -24,3 +24,6 @@ const QUANTIY_FIELD = document.getElementById("quantityField")
  Functions
 ***********************************/
 
+function getFormInput(){
+    
+}
