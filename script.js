@@ -13,7 +13,7 @@ console.log("Running ordering system");
 **********************************/
 const OUTPUT = document.getElementById("spaceForjavaScriptOutput")
 const ITEM_FIELD = document.getElementById("itemField")
-const QUANTIY_FIELD = document.getElementById("quantityField")
+
 
 
 
@@ -26,6 +26,6 @@ const QUANTIY_FIELD = document.getElementById("quantityField")
 
 function getFormInput(){
     let itemArray = ["Brownies", "Egg tart", "Strawberry Cream Tart", "Palmiers"];
-    let choice = 
+    let choice = ITEM_FIELD.valyue
     OUTPUT.innerHTML += "x " + itemArray[choice] + "<br>";
 }
