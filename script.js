@@ -12,7 +12,7 @@ console.log("Running ordering system");
  Main code
 **********************************/
 const OUTPUT = document.getElementById("spaceForjavaScriptOutput")
-const ITEM_FIELD = document.getElementById("spaceForjavaScriptOutput")
+const ITEM_FIELD = document.getElementById("itemField")
 const QUANTIY_FIELD = document.getElementById("quantityField")
 
 
