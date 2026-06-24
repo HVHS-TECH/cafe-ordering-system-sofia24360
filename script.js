@@ -26,6 +26,6 @@ const ITEM_FIELD = document.getElementById("itemField")
 
 function getFormInput(){
     let itemArray = ["Brownies", "Egg tart", "Strawberry Cream Tart", "Palmiers"];
-    let choice = ITEM_FIELD.valyue
+    let choice = ITEM_FIELD.value;
     OUTPUT.innerHTML += "x " + itemArray[choice] + "<br>";
 }
