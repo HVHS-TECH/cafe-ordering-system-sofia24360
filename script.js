@@ -25,5 +25,5 @@ const QUANTIY_FIELD = document.getElementById("quantityField")
 ***********************************/
 
 function getFormInput(){
-    let userchoice 
+    let itemArray = ["Brownies", ""] 
 }
