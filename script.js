@@ -35,5 +35,6 @@ function getFormInput(){
     let itemArray = ["Brownies", "Egg tart", "Palmiers", "Strawberry Cream Tart"];
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
+    user
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
 }
