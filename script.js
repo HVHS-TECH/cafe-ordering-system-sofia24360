@@ -32,7 +32,7 @@ function getFormInput(){
     let itemArray = ["Brownies", "Egg tart", "Palmiers", "Strawberry Cream Tart"];
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
-   u
+    userOrder.push ({item: itemArray[choice], Quatity: qty});
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
 }
 
