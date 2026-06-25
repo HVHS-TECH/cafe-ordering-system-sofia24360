@@ -7,6 +7,10 @@ console.log("Running ordering system");
 
 //Variables
 
+userOrder = [
+    Name: ""
+
+]
 
 /**********************************
  Main code
