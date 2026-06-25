@@ -31,7 +31,7 @@ const QTY_FIELD = document.getElementById("qtyField");
 ***********************************/
 
 function getFormInput(){
-    let itemArray = ["Brownies", "Egg tart", "Strawberry Cream Tart", "Palmiers"];
+    let itemArray = ["Brownies", "Egg tart", "Palmiers", "Strawberry Cream Tart"];
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
