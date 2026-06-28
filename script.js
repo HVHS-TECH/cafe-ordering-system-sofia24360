@@ -36,6 +36,10 @@ function getFormInput(){
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
 }
 
+function receipt(){
+    let userMoney = 
+}
+
 
 
 
