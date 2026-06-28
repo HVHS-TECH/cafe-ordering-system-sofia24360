@@ -46,7 +46,7 @@ function getFormInput(){
         item: "Strawberry Cream Tart",
         price: 6 
     }
-   ]
+]
 
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
