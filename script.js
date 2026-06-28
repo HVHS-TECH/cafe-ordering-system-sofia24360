@@ -50,7 +50,7 @@ function getFormInput(){
 
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
-    userOrder.push (choice, {Quatity: qty});
+    userOrder.push (itemArray[choice]);
     OUTPUT.innerHTML += qty + "x " + userOrder.item + "<br>";
 }
 
