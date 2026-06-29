@@ -31,8 +31,8 @@ const QTY_FIELD = document.getElementById("qtyField");
 function getFormInput(){
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
-    userOrder.push (itemArray[choice]);
-    OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
+    userOrder.push (choice);
+    OUTPUT.innerHTML += qty + "x " + userOrder + "<br>";
 }
 
 function calculateTotal(userOrder, qty){
