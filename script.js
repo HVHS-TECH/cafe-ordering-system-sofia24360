@@ -6,7 +6,7 @@ console.log("Running ordering system");
 
 
 //Variables
-
+let itemArray = ["Brownies","Egg Tart","Palmiers","Strawberry Cream Tart"]
 let userOrder = [];
 
 /**********************************
@@ -29,8 +29,6 @@ const QTY_FIELD = document.getElementById("qtyField");
 ***********************************/
 
 function getFormInput(){
-    let itemArray = ["Brownies","Egg Tart","Palmiers","Strawberry Cream Tart"]
-
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
     userOrder.push (itemArray[choice]);
