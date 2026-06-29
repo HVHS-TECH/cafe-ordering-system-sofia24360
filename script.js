@@ -17,7 +17,6 @@ const ITEM_FIELD = document.getElementById("itemField");
 const QTY_FIELD = document.getElementById("qtyField");
 
 
-itemPrices(Brownies)
 
 
 
