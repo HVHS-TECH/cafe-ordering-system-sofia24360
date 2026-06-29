@@ -29,29 +29,12 @@ const QTY_FIELD = document.getElementById("qtyField");
 ***********************************/
 
 function getFormInput(){
-    let itemArray = [
-    {
-        item: "Brownies",
-        price:12
-    }, 
-    {
-        item: "Egg Tart",
-        price: 5
-    }, 
-    {
-        item: "Palmiers",
-        price: 10
-    },
-    {
-        item: "Strawberry Cream Tart",
-        price: 6 
-    }
-]
+    let itemArray = ["Brownies","Egg Tart","Palmiers","Strawberry Cream Tart"]
 
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
     userOrder.push (itemArray[choice]);
-    OUTPUT.innerHTML += qty + "x " + userOrder.item + "<br>";
+    OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
 }
 
 
