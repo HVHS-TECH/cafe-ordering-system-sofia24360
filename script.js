@@ -35,8 +35,8 @@ function getFormInput(){
     OUTPUT.innerHTML += qty + "x " + userOrder + "<br>";
 }
 
-function calculateTotal(userOrder, qty){
-    let total = 
+function calculateTotal(){
+    let total = choice * qty
 
 }
 
