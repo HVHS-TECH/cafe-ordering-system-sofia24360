@@ -32,7 +32,7 @@ function getFormInput(){
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
     userOrder.push (choice);
-    OUTPUT.innerHTML += qty + "x " + itemArray[choice];
+    OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
 }
 
 
