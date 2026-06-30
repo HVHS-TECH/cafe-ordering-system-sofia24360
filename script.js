@@ -37,7 +37,7 @@ function getFormInput(){
 
 function calculateTotal(_item, _qty){
     let total = (_item * _qty) * 6;
-    OUTPUT.innerHTML += "Total: $" + total;
+    OUTPUT.innerHTML += "Total: $" + total + "<br>";
 }
 
 
