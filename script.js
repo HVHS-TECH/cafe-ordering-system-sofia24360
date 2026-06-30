@@ -33,7 +33,7 @@ function getFormInput(){
     let qty = QTY_FIELD.value;
     userOrder.push (choice);
     OUTPUT.innerHTML += qty + "x " + userOrder + "<br>";
-    calculateTotal(choice, qty)
+    calculateTotal()
 }
 
 function calculateTotal(){
