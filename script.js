@@ -7,7 +7,7 @@ console.log("Running ordering system");
 
 //Variables
 let itemArray = ["Brownies","Egg Tart","Palmiers","Strawberry Cream Tart"]
-let userOrder = [];
+
 
 /**********************************
  Main code
@@ -31,8 +31,14 @@ const QTY_FIELD = document.getElementById("qtyField");
 function getFormInput(){
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
-    userOrder.push (choice);
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
+    calculateTotal(itemArray[choice], qty)
+}
+
+function calculateTotal(_item, _qty){
+    let totalItems = _item * _qty;
+    let total = totalItems * 6;
+    OUTPUT.innerHTML += "Total: " + total;
 }
 
 
