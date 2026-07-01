@@ -34,7 +34,7 @@ function getFormInput(){
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
     calculatePrice(choice, qty)
     let userOrder[];
-    userOrder.push 
+    userOrder.push() 
     
 }
 
