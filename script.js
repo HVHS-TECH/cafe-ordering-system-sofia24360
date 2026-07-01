@@ -33,8 +33,8 @@ function getFormInput(){
     let qty = QTY_FIELD.value;
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
     calculatePrice(choice, qty)
-    let userorder[]
-    userorder.push 
+    let userOrder[];
+    userOrder.push 
     
 }
 
