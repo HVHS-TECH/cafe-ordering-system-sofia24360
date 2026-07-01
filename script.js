@@ -6,12 +6,7 @@ console.log("Running ordering system");
 
 
 //Variables
-let itemArray = [{
-    item: "Brownies",
-    price: 12,
-    item: "Egg Tart",
-    price: 2
-}]
+let itemArray = ["Brownies", "Egg Tart", "Palmiers", "Strawberry Cream Tart"]
 
 
 /**********************************
