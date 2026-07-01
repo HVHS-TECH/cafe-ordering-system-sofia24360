@@ -37,7 +37,7 @@ function getFormInput(){
 }
 
 function calculatePrice(_item, _qty){
-    let price = (_item * _qty) * itemArray[choice];
+    let price = (_item * _qty) * 6;
     OUTPUT.innerHTML += "Price: $" + price + "<br>";
 }
 
