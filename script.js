@@ -33,15 +33,11 @@ function getFormInput(){
     let qty = QTY_FIELD.value;
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
     calculatePrice(choice, qty)
-    let userOrder[];
-    userOrder.push() 
-    
 }
 
 function calculatePrice(_item, _qty){
     let price = (_item * _qty) * 6;
     OUTPUT.innerHTML += "Price: $" + price + "<br>";
-    let total = 
 }
 
 
