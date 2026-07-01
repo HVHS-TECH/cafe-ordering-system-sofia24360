@@ -33,21 +33,13 @@ function getFormInput(){
     let qty = QTY_FIELD.value;
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
     calculatePrice(choice, qty)
-    calculateTotal()
+    
 }
 
 function calculatePrice(_item, _qty){
     let price = (_item * _qty) * 6;
-    OUTPUT.innerHTML += "Price: $" + total + "<br>";
+    OUTPUT.innerHTML += "Price: $" + price + "<br>";
 }
-
-function calculateTotal(_){
-    let total = price + price;
-    OUTPUT.innerHTML += "Total: $" + total + "<br>"
-
-}
-
-
 
 
 
