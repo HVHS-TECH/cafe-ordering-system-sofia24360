@@ -7,7 +7,7 @@ console.log("Running ordering system");
 
 //Variables
 let itemArray = ["Brownies", "Egg Tart", "Palmiers", "Strawberry Cream Tart"]
-
+let userOrder
 
 /**********************************
  Main code
@@ -30,6 +30,7 @@ const QTY_FIELD = document.getElementById("qtyField");
 
 function getFormInput(){
     let choice = ITEM_FIELD.value;
+    userOrder.push(choice)
     let qty = QTY_FIELD.value;
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
     calculatePrice(choice, qty)
