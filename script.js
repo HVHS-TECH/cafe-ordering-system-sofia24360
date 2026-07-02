@@ -18,7 +18,10 @@ const QTY_FIELD = document.getElementById("qtyField");
 const NAME_FIELD = document.getElementById("nameField");
 
 
-
+for (let i=0; i<userOrder.length; i++){
+    var thisUser = userOrder[i]
+    console.log("Custoner name: " + thisUser.customer + "<br>" + "Their order: ")
+}
 
 
 
