@@ -36,8 +36,8 @@ function getFormInput(){
     calculatePrice(qty,6)
 }
 
-function calculatePrice(_item, _qty){
-    let price = _qty * 6;
+function calculatePrice(_qty, _price){
+    let price = _qty * _price;
     OUTPUT.innerHTML += "Price: $" + price + "<br>";
 }
 
