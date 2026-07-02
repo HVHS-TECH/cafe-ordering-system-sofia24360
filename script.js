@@ -33,7 +33,7 @@ function getFormInput(){
     let userName = NAME_FIELD.value
     Object.defineProperty(userOrder, "customer", {value:userName})
     let choice = ITEM_FIELD.value;
-    Object.defineProperty(userOrder, "items", {enumerated: true, value:choice})
+    Object.defineProperty(userOrder, "items", {configurable: true, value:choice})
     let qty = QTY_FIELD.value;
     Object.defineProperty(userOrder, "Quantity", {enumerated: true, value:qty})
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
