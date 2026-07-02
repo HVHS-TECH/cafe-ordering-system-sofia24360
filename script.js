@@ -15,6 +15,7 @@ let userOrder = []
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const ITEM_FIELD = document.getElementById("itemField");
 const QTY_FIELD = document.getElementById("qtyField");
+const NAME_FIELD = document.getElementById("nameField");
 
 
 
@@ -29,9 +30,12 @@ const QTY_FIELD = document.getElementById("qtyField");
 ***********************************/
 
 function getFormInput(){
+    let userName = NAME_FIELD.value
+    Object.defineProperty(userOrder, "customer", {value:userName})
     let choice = ITEM_FIELD.value;
-    userOrder.push(choice)
+    Object.defineProperty(userOrder, "items", {value:choice})
     let qty = QTY_FIELD.value;
+    Object.defineProperty(userOrder, "Quantity", {value:qty})
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
     calculatePrice(qty,6)
 }
