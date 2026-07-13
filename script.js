@@ -2,13 +2,10 @@
 Name: Ordering System
 ***********************************/
 console.log("Running ordering system");
-console.log("Custoner name: " + userOrder.customer + "<br>" + "Their order: " + userOrder.items)
-
 
 
 //Variables
 let itemArray = ["Brownies", "Egg Tart", "Palmiers", "Strawberry Cream Tart"]
-let userOrder = []
 
 /**********************************
  Main code
@@ -31,7 +28,6 @@ const NAME_FIELD = document.getElementById("nameField");
 ***********************************/
 
 function getFormInput(){
-    let userName = NAME_FIELD.value
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
