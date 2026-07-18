@@ -33,9 +33,9 @@ getFormInput('Strawberry Cream Tart', 6)
 ***********************************/
 
 function getFormInput(itemName, itemPrice){
-    let choice = {item:itemName, price:itemPrice}
+    let choice = {name:itemName, price:itemPrice}
     userorder.push(choice)
-    getElementById.innerHTML += "<p> You have added " + choice.item + " $" + choice.price + "</p>";
+    getElementById.innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
 }
 
 
