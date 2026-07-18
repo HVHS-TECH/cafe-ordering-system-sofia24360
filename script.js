@@ -37,7 +37,7 @@ getFormInput('Strawberry Cream tart', 6)
  Functions
 ***********************************/
 
-function getFormInput(){
+function getFormInput(itemName, itemPrice){
     let choice = {item:itemName, price:itemPrice}
     userorder.push(choice)
     
