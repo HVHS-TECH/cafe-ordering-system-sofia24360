@@ -33,6 +33,10 @@ function getFormInput(itemName, itemPrice){
     document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
 }
 
+function placeOrder(){
+    
+
+}
 
 
 
