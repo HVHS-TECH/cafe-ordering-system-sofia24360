@@ -19,7 +19,10 @@ let total = 0;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 
-    
+getFormInput('Brownies', 11)
+getFormInput('Egg Tart', 5)
+getFormInput('Palmiers', 10)
+getFormInput('Strawberry Cream Tart', 6)
 
 
 
@@ -32,7 +35,7 @@ const NAME_FIELD = document.getElementById("nameField");
 function getFormInput(itemName, itemPrice){
     let choice = {item:itemName, price:itemPrice}
     userorder.push(choice)
-    OUTPUT.innerHTML += "<p> You have added " + choice.item + " $" + choice.price + "</p>";
+    getElementById.innerHTML += "<p> You have added " + choice.item + " $" + choice.price + "</p>";
 }
 
 
