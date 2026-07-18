@@ -58,7 +58,8 @@ for(let item = 0; item < userOrder.length; item++){
     receipt += userOrder[item].name + " $" + order[item].price + "<br.";
 }
 
-document.getElementById("receiptOutput").innerHTML = "<h1>RECEIPT<//h1>" + "<p> "
+document.getElementById("receiptOutput").innerHTML = "<h1>RECEIPT<//h1>" + "<p> Name: " + userName + "</p>" 
+                                                     
 
 
 
