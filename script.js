@@ -39,7 +39,7 @@ function getFormInput(itemName, itemPrice){
 
 function placeOrder(){
     const userName = document.getElementById("nameField".value);
-    let userMoney = Number(document.getElementById("moneyField").value)
+    const userMoney = Number(document.getElementById("moneyField").value)
     if(userOrder.length == 0){
         document.getElementById("receiptOutput").innerHTML = "Your order is currently empty";
     }
@@ -62,7 +62,7 @@ for(let item = 0; item < userOrder.length; item++){
 
 document.getElementById("receiptOutput").innerHTML = "<h1>RECEIPT<//h1>" + "<p> Name: " + userName + "</p>" 
                                                      + receipt + "<br>" + " <p> Total: $" + total + "</p>" 
-                                                     + "<br>" + "<p> Money paid: $" + usermoney + "</p>" +
+                                                     + "<br>" + "<p> Money paid: $" + userMoney + "</p>" +
                                                      "<p> Change: $" + userChange + "</p>";
 }
 
