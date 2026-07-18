@@ -17,8 +17,6 @@ let total = 0;
  Main code
 **********************************/
 
-const userName = document.getElementById("nameField".value);
-const userMoney = Number(document.getElementById("moneyField").value)
 
 
 
@@ -29,6 +27,9 @@ const userMoney = Number(document.getElementById("moneyField").value)
 ***********************************/
 
 function getFormInput(itemName, itemPrice){
+    const userName = document.getElementById("nameField".value);
+    const userMoney = Number(document.getElementById("moneyField").value)
+
     let choice = {name:itemName, price:itemPrice}
     userOrder.push(choice)
     total = total + choice.price;
