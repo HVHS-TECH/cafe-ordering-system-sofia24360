@@ -36,7 +36,7 @@ function getFormInput(itemName, itemPrice){
 
 function placeOrder(){
     if(userOrder.length == 0){
-        
+        document.getElementById("receiptOutput")
     }
 
 
