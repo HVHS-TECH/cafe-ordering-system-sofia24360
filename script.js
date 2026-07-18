@@ -17,7 +17,8 @@ let total = 0;
  Main code
 **********************************/
 
-const userName
+const userName = document.getElementById("nameField".value);
+
 
 
 
