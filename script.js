@@ -33,7 +33,7 @@ function getFormInput(itemName, itemPrice){
     userOrder.push(choice)
     total = total + choice.price;
     document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
-    document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
+    document.getElementById("userTotal").innerHTML += "<p> TOTAL: $ " + choice.name + " $" + choice.price + "</p>";
 
 }
 
