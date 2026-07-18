@@ -5,7 +5,11 @@ console.log("Running ordering system");
 
 
 //Variables
-let itemArray = ["Brownies", "Egg Tart", "Palmiers", "Strawberry Cream Tart"]
+const menuArray = [{ item:"Brownies", price: 11},
+                 { item: "Egg Tart", price: 5},
+                 { item: "Palmiers", price: 10},
+                 { item: "Strawberry Cream Tart", price: 6}
+                ];
 
 /**********************************
  Main code
@@ -31,14 +35,7 @@ function getFormInput(){
     let choice = ITEM_FIELD.value;
     let qty = QTY_FIELD.value;
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
-    calculatePrice(qty,6)
 }
-
-function calculatePrice(_qty, _price){
-    let price = _qty * _price;
-    OUTPUT.innerHTML += "Price: $" + price + "<br>";
-}
-
 
 
 
