@@ -11,6 +11,8 @@ const menuArray = [{ name:"Brownies", price: 11},
                  { name: "Strawberry Cream Tart", price: 6}
                 ];
 
+let userOrder []
+let total = 0
 /**********************************
  Main code
 **********************************/
@@ -22,7 +24,7 @@ const NAME_FIELD = document.getElementById("nameField");
 
 
     
-                
+
 
 
 
