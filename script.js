@@ -31,8 +31,10 @@ const userMoney = Number(document.getElementById("moneyField").value)
 function getFormInput(itemName, itemPrice){
     let choice = {name:itemName, price:itemPrice}
     userOrder.push(choice)
-    total = total + 
+    total = total + choice.price;
     document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
+    document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
+
 }
 
 function placeOrder(){
