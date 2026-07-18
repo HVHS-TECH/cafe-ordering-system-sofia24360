@@ -24,12 +24,14 @@
   
 
 <form onsubmit="return false;">
-   <label for="nameField">Order For:</label>
+   <button onclick="getFormInput('Brownies', 11)"> Add No.0</button><br>
+   <button onclick="getFormInput('Egg Tart', 5)"> Add No.1</button><br>
+   <button onclick="getFormInput('Palmiers', 10)"> Add No.2</button><br>
+   <button onclick="getFormInput('Strawberry Cream Tart', 6)"> Add No.3</button><br>
+<br>
+
+<label for="nameField">Order For:</label>
    <input type="text" id="nameField" name="formName" placeHolder="Your Name">
-<br>
-<br>
-   <label for="itemField">Item:</label>
-   <input type="text" id="itemField" name="formItem" placeholder="Item No">
 <br>
 <br>
    <input type="button" onclick="getFormInput()" value=" Add to Order">
