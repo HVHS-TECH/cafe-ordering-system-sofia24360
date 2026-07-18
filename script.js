@@ -5,10 +5,10 @@ console.log("Running ordering system");
 
 
 //Variables
-const menuArray = [{ item:"Brownies", price: 11},
-                 { item: "Egg Tart", price: 5},
-                 { item: "Palmiers", price: 10},
-                 { item: "Strawberry Cream Tart", price: 6}
+const menuArray = [{ name:"Brownies", price: 11},
+                 { name: "Egg Tart", price: 5},
+                 { name: "Palmiers", price: 10},
+                 { name: "Strawberry Cream Tart", price: 6}
                 ];
 
 /**********************************
