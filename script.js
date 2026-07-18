@@ -28,10 +28,10 @@ const NAME_FIELD = document.getElementById("nameField");
  Functions
 ***********************************/
 
-function getFormInput(_itemName, _itemPrice){
+function getFormInput(itemName, itemPrice){
     let choice = {name:itemName, price:itemPrice}
     userOrder.push(choice)
-    getElementById("spaceForJavaScriptOutput").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
+    getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
 }
 
 
