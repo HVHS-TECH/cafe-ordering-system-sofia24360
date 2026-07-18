@@ -18,7 +18,7 @@ let total = 0;
 **********************************/
 
 const userName = document.getElementById("nameField".value);
-const userMoney = Number (document.getElementById)
+const userMoney = Number(document.getElementById("moneyField").value)
 
 
 
@@ -35,6 +35,9 @@ function getFormInput(itemName, itemPrice){
 }
 
 function placeOrder(){
+    if(userOrder.length == 0){
+        
+    }
 
 
 }
