@@ -55,7 +55,7 @@ let userChange = userMoney - total;
 let receipt ="";
 
 for(let item = 0; item < userOrder.length; item++){
-    
+    receipt += userOrder[item].name
 }
 
 
