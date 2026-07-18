@@ -54,7 +54,7 @@ let userChange = userMoney - total;
 
 let receipt ="";
 
-for()
+for(let item = 0; item < userOrder.length; )
 }
 
 
