@@ -21,7 +21,8 @@ const ITEM_FIELD = document.getElementById("itemField");
 const QTY_FIELD = document.getElementById("qtyField");
 const NAME_FIELD = document.getElementById("nameField");
 
-getFormInput()
+getFormInput('Brownies', 11)
+getFormInput('Brownies', 11)
 
 
     
