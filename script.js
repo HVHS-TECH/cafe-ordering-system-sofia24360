@@ -31,7 +31,7 @@ const NAME_FIELD = document.getElementById("nameField");
 function getFormInput(itemName, itemPrice){
     let choice = {name:itemName, price:itemPrice}
     userOrder.push(choice)
-    getElementById("spaceForJavaScriptOutput").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
+    document.getElementById("spaceForJavaScriptOutput").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
 }
 
 
