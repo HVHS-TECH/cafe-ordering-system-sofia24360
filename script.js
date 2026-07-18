@@ -36,8 +36,13 @@ function getFormInput(itemName, itemPrice){
 
 function placeOrder(){
     if(userOrder.length == 0){
-        document.getElementById("receiptOutput")
+        document.getElementById("receiptOutput").innerHTML = "Your order is currently empty";
     }
+    if(userMoney < total){
+                document.getElementById("receiptOutput").innerHTML = "Your order is currently empty";
+
+    }
+
 
 
 }
