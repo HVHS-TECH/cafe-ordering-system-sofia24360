@@ -16,8 +16,7 @@ let total = 0;
 /**********************************
  Main code
 **********************************/
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-const NAME_FIELD = document.getElementById("nameField");
+
 
 
 
