@@ -11,8 +11,8 @@ const menuArray = [{ item:"Brownies", price: 11},
                  { item: "Strawberry Cream Tart", price: 6}
                 ];
 
-let userOrder []
-let total = 0
+let userOrder = [];
+let total = 0;
 /**********************************
  Main code
 **********************************/
