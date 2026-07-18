@@ -49,7 +49,16 @@ function placeOrder(){
         document.getElementById("receiptOutput").innerHTML = "Sorry you don't have enough money"
         return;
     }
+
+let userChange = userMoney - total;
+
+let receipt ="";
+
+for()
 }
+
+
+
 
 
 
