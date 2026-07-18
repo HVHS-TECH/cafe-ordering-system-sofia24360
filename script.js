@@ -19,10 +19,6 @@ let total = 0;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 
-getFormInput('Brownies', 11)
-getFormInput('Egg Tart', 5)
-getFormInput('Palmiers', 10)
-getFormInput('Strawberry Cream Tart', 6)
 
 
 
