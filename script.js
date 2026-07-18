@@ -38,15 +38,14 @@ function placeOrder(){
     if(userOrder.length == 0){
         document.getElementById("receiptOutput").innerHTML = "Your order is currently empty";
     }
-    if(userMoney < total){
-        document.getElementById("receiptOutput").innerHTML = "Sorry you don't have enough money";
-    }
     if(userName == ""){
-        document.getElementById("receiptOutput").innerHTML = "Sorry you don't have enough money";
+        document.getElementById("receiptOutput").innerHTML = "Please enter a name"
+        return;
     }
-
-
-
+    if(userMoney < total){
+        document.getElementById("receiptOutput").innerHTML = "Sorry you don't have enough money"
+        return;
+    }
 }
 
 
