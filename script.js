@@ -22,7 +22,9 @@ const QTY_FIELD = document.getElementById("qtyField");
 const NAME_FIELD = document.getElementById("nameField");
 
 getFormInput('Brownies', 11)
-getFormInput('Brownies', 11)
+getFormInput('Egg Tart', 5)
+getFormInput('Palmiers', 10)
+getFormInput('Strawberry Cream tart', 6)
 
 
     
