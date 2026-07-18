@@ -17,7 +17,7 @@ let total = 0;
  Main code
 **********************************/
 
-
+const userName
 
 
 
@@ -34,7 +34,7 @@ function getFormInput(itemName, itemPrice){
 }
 
 function placeOrder(){
-    
+
 
 }
 
