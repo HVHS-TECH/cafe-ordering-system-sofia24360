@@ -39,8 +39,10 @@ function placeOrder(){
         document.getElementById("receiptOutput").innerHTML = "Your order is currently empty";
     }
     if(userMoney < total){
-                document.getElementById("receiptOutput").innerHTML = "Your order is currently empty";
-
+        document.getElementById("receiptOutput").innerHTML = "Sorry you don't have enough money";
+    }
+    if(userName == ""){
+        document.getElementById("receiptOutput").innerHTML = "Sorry you don't have enough money";
     }
 
 
