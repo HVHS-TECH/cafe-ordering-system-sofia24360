@@ -35,7 +35,7 @@ const NAME_FIELD = document.getElementById("nameField");
 
 function getFormInput(){
     let choice = {item:itemName, price:itemPrice}
-    userorder.push
+    userorder.push(choice)
     OUTPUT.innerHTML += qty + "x " + itemArray[choice] + "<br>";
 }
 
