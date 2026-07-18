@@ -62,7 +62,16 @@ document.getElementById("receiptOutput").innerHTML = "<h1>RECEIPT<//h1>" + "<p> 
                                                      + receipt + "<br>" + " <p> Total: $" + total + "</p>" 
                                                      + "<br>" + "<p> Money paid: $" + usermoney + "</p>" +
                                                      "<p> Change: $" + userChange + "</p>";
+}
 
+function resetOrder(){
+    total = 0;
+    userOrder = [];
+    document.getElementById("userOrder").innerHTML = "";
+    document.getElementById("receipt").innerHTML = "";
+    document.getElementById("total").innerHTML = "Total: $0";
+
+}
 
 
 
