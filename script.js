@@ -18,7 +18,7 @@ let total = 0;
 **********************************/
 
 const userName = document.getElementById("nameField".value);
-const userMoney = 
+const userMoney = Number (document.getElementById)
 
 
 
