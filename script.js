@@ -59,7 +59,9 @@ for(let item = 0; item < userOrder.length; item++){
 }
 
 document.getElementById("receiptOutput").innerHTML = "<h1>RECEIPT<//h1>" + "<p> Name: " + userName + "</p>" 
-                                                     
+                                                     + receipt + "<br>" + " <p> Total: $" + total + "</p>" 
+                                                     + "<br>" + "<p> Money paid: $" + usermoney + "</p>" +
+                                                     "<p> Change: $" + userChange + "</p>";
 
 
 
