@@ -17,8 +17,6 @@ let total = 0
  Main code
 **********************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-const ITEM_FIELD = document.getElementById("itemField");
-const QTY_FIELD = document.getElementById("qtyField");
 const NAME_FIELD = document.getElementById("nameField");
 
     
@@ -34,7 +32,7 @@ const NAME_FIELD = document.getElementById("nameField");
 function getFormInput(itemName, itemPrice){
     let choice = {item:itemName, price:itemPrice}
     userorder.push(choice)
-    
+    document.getElementById
 }
 
 
