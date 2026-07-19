@@ -39,16 +39,22 @@ function placeOrder(){
    const userMoney = Number(document.getElementById("moneyField").value)
 
     if(userOrder.length == 0){
-        document.getElementById("receiptOutput").innerHTML = "<br> Your order is currently empty";
+        document.getElementById("receiptOutput").innerHTML = "<br> Your order is currently empty"
+        return;
     }
     if(userName == ""){
         document.getElementById("receiptOutput").innerHTML = "<br> Please enter a name"
+        return;
+    }
+    if(userMoney == 0){
+        document.getElementById("receiptOutput").innerHTML = "<br> Please put in your money"
         return;
     }
     if(userMoney < total){
         document.getElementById("receiptOutput").innerHTML = "<br> Sorry you don't have enough money"
         return;
     }
+    
 
 let userChange = userMoney - total;
 
