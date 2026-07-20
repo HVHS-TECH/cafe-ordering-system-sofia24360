@@ -75,7 +75,7 @@ function resetOrder(){
     userOrder = [];
     document.getElementById("userOrder").innerHTML = "";
     document.getElementById("receipt").innerHTML = "";
-    document.getElementById("total").innerHTML = "";
+    document.getElementById("total").innerHTML = "TOTAL:" + total;
 
 }
 
