@@ -1,6 +1,5 @@
 html, body{
     background-color: #feb3c7;
-    background-image: url(Images/homepage-bg.jpg);
 }
 
 
@@ -59,4 +58,7 @@ header {
      margin: 20px;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 15px;
+}
+.homepage {
+    background-image: url(Images/homepage-bg.jpg);
 }
