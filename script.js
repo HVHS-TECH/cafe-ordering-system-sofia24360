@@ -5,13 +5,16 @@ console.log("Running ordering system");
 
 
 //Variables
+//array with the names of the items and their prices
 const menuArray = [{ item:"Brownies", price: 11},
                  { item: "Egg Tart", price: 5},
                  { item: "Palmiers", price: 10},
                  { item: "Strawberry Cream Tart", price: 6}
                 ];
 
+//empty array to later store what the user orders
 let userOrder = [];
+// variable to keep track of how much the users order cost
 let total = 0;
 /**********************************
  Main code
@@ -31,12 +34,14 @@ function getFormInput(itemName, itemPrice){
     userOrder.push(choice)
 //calculates the total and continues adding to it as the user adds more stuff into their order
     total = total + choice.price;
-//shows the user the items they have added along with the price and overall total 
+//shows the user the items they have added along with the price
     document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
+//displays and updates the total as the user orders
     document.getElementById("userTotal").innerHTML += "<p> TOTAL: $ " + total + "</p>";
 
 }
 
+//function will check for any errors and print a receipt for the user
 function placeOrder(){
    const userName = document.getElementById("nameField").value;
    const userMoney = Number(document.getElementById("moneyField").value)
