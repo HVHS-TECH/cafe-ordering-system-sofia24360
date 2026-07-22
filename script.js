@@ -37,25 +37,29 @@ function getFormInput(itemName, itemPrice){
 function placeOrder(){
    const userName = document.getElementById("nameField").value;
    const userMoney = Number(document.getElementById("moneyField").value)
-// 
+//if's will check for any mistakes or empty/missing information 
+// checks whether the user has added items before placing their order
     if(userOrder.length == 0){
         document.getElementById("receiptOutput").innerHTML = "<br> Your order is currently empty"
         return;
     }
+//checks if the user has entered a name before placing their order
     if(userName == ""){
         document.getElementById("receiptOutput").innerHTML = "<br> Please enter a name"
         return;
     }
+//checks if the user had put in their money before placing their order
     if(userMoney == 0){
         document.getElementById("receiptOutput").innerHTML = "<br> Please put in your money"
         return;
     }
+//ifthe user has put in their money, this checks if they have enough for their order/total
     if(userMoney < total){
         document.getElementById("receiptOutput").innerHTML = "<br> Sorry you don't have enough money"
         return;
     }
     
-
+//calculates the users change based on their total and amount of money they put in
 let userChange = userMoney - total;
 
 let receipt ="";
