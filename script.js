@@ -63,7 +63,7 @@ function placeOrder(){
 let userChange = userMoney - total;
 
 let receipt ="";
-
+//for loop used to display the users order that has been stored in userOrder
 for(let item = 0; item < userOrder.length; item++){
     receipt += userOrder[item].name + " $" + userOrder[item].price + "<br>";
 }
