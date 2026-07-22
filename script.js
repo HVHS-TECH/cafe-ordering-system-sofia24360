@@ -90,6 +90,7 @@ document.getElementById("receiptOutput").innerHTML = "<h3>RECEIPT</h3>" + "<p> N
 function resetOrder(){
     total = 0;
     userOrder = [];
+    userMoney = 0;
     document.getElementById("userOrder").innerHTML = "";
     document.getElementById("receiptOutput").innerHTML = "";
     document.getElementById("userTotal").innerHTML = "TOTAL: 0";
