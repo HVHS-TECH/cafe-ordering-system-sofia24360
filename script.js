@@ -87,9 +87,8 @@ function resetOrder(){
     userOrder = [];
     userMoney = 0;
     document.getElementById("userOrder").innerHTML = "";
-    document.getElementById("receiptOutput").innerHTML = "";
     document.getElementById("userTotal").innerHTML = "TOTAL: 0";
-
+    document.getElementById("receiptOutput").innerHTML = "";
 }
 
 
