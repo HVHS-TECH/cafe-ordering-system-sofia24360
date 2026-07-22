@@ -37,7 +37,7 @@ function getFormInput(itemName, itemPrice){
 function placeOrder(){
    const userName = document.getElementById("nameField").value;
    const userMoney = Number(document.getElementById("moneyField").value)
-
+// 
     if(userOrder.length == 0){
         document.getElementById("receiptOutput").innerHTML = "<br> Your order is currently empty"
         return;
