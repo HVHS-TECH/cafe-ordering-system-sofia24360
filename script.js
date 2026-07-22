@@ -56,16 +56,11 @@ function placeOrder(){
         document.getElementById("receiptOutput").innerHTML = "<br> Please enter a name"
         return;
     }
-    if(userMoney != Number){
-        document.getElementById("receiptOutput").innerHTML = "<br> Please enter a valid amount of money"
-        return;
-    }
 //checks if the user had put in their money before placing their order
     if(userMoney == 0){
         document.getElementById("receiptOutput").innerHTML = "<br> Please put in your money"
         return;
     }
-    
 //ifthe user has put in their money, this checks if they have enough for their order/total
     if(userMoney < total){
         document.getElementById("receiptOutput").innerHTML = "<br> Sorry you don't have enough money"
