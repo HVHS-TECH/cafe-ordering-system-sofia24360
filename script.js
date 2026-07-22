@@ -41,7 +41,7 @@ function getFormInput(itemName, itemPrice){
 
 }
 
-//function will check for any errors and print a receipt for the user
+//function will print a receipt for the user
 function placeOrder(){
    const userName = document.getElementById("nameField").value;
    const userMoney = Number(document.getElementById("moneyField").value)
