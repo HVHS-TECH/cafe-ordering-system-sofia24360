@@ -24,12 +24,14 @@ let total = 0;
 /***********************************
  Functions
 ***********************************/
-
+//funcion for the user to add items into their order 
 function getFormInput(itemName, itemPrice){
     let choice = {name:itemName, price:itemPrice}
 //stores the items that the user wants into another array(userOrder)
     userOrder.push(choice)
+//calculates the total and continues adding to it as the user adds more stuff into their order
     total = total + choice.price;
+//shows the user the items they have added along with the price and overall total 
     document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
     document.getElementById("userTotal").innerHTML += "<p> TOTAL: $ " + total + "</p>";
 
