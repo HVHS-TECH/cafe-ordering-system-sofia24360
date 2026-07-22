@@ -27,6 +27,7 @@ let total = 0;
 
 function getFormInput(itemName, itemPrice){
     let choice = {name:itemName, price:itemPrice}
+//stores the items that the user wants into another array(userOrder)
     userOrder.push(choice)
     total = total + choice.price;
     document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
@@ -67,13 +68,13 @@ let receipt ="";
 for(let item = 0; item < userOrder.length; item++){
     receipt += userOrder[item].name + " $" + userOrder[item].price + "<br>";
 }
-
+//the format that the receipt will be displayed in
 document.getElementById("receiptOutput").innerHTML = "<h3>RECEIPT</h3>" + "<p> Name: " + userName + "</p>" 
                                                      + receipt + "<br>" + " <p> Total: $" + total + "</p>" 
                                                      + "<br>" + "<p> Money paid: $" + userMoney + "</p>" +
                                                      "<p> Change: $" + userChange + "</p>";
 }
-
+//function allows the user to erase their order and start over
 function resetOrder(){
     total = 0;
     userOrder = [];
