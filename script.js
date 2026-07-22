@@ -56,7 +56,7 @@ function placeOrder(){
         document.getElementById("receiptOutput").innerHTML = "<br> Please enter a name"
         return;
     }
-    if(userMoney == String){
+    if(userMoney != Number){
         document.getElementById("receiptOutput").innerHTML = "<br> Please enter a valid amount of money"
         return;
     }
