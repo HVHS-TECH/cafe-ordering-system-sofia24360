@@ -59,4 +59,13 @@ header {
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 15px;
 }
-
+footer {
+    background-color: #A98360;
+    padding: 10px;
+}
+.footer {
+    color: beige;
+}
+.footer a {
+    color: beige;
+}
