@@ -89,6 +89,9 @@ function resetOrder(){
     document.getElementById("userOrder").innerHTML = "";
     document.getElementById("userTotal").innerHTML = "TOTAL: 0";
     document.getElementById("receiptOutput").innerHTML = "";
+    document.getElementById("nameField").value = "";
+    document.getElementById("moneyField").value = "";
+
 }
 
 
