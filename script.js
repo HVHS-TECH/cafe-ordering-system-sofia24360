@@ -37,7 +37,7 @@ function getFormInput(itemName, itemPrice){
 //shows the user the items they have added along with the price
     document.getElementById("userOrder").innerHTML += "<p> You have added " + choice.name + " $" + choice.price + "</p>";
 //displays and updates the total as the user orders
-    document.getElementById("userTotal").innerHTML += "<p> TOTAL: $ " + total + "</p>";
+    document.getElementById("userTotal").innerHTML = "<p> TOTAL: $ " + total + "</p>";
 
 }
 
