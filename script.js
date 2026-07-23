@@ -79,7 +79,7 @@ for(let item = 0; item < userOrder.length; item++){
 document.getElementById("receiptOutput").innerHTML = "<h3>RECEIPT</h3>" + "<p> Name: " + userName + "</p>" 
                                                      + receipt + "<br>" + " <p> Total: $" + total + "</p>" 
                                                      + "<br>" + "<p> Money paid: $" + userMoney + "</p>" +
-                                                     "<p> Change: $" + userChange + "</p>";
+                                                     "<p> Change: $" + userChange + "</p>" + "<br>" + "<h3> THANK YOU FOR ORDERING</h3>";
 }
 //function allows the user to erase their order and start over
 function resetOrder(){
